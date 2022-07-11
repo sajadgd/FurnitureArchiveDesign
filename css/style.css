@@ -1,0 +1,440 @@
+@import 'reset.css';
+
+@font-face {
+    font-family: 'Yekan';
+    src: url('../fonts/Yekan.eot') format('eot'),
+         url('../fonts/Yekan.ttf') format('truetype'),
+         url('../fonts/Yekan.woff2') format('woff'),
+         url('../fonts/Yekan.woff') format('woff2');
+}
+
+body{
+    font-family: 'Yekan';
+    direction: rtl;
+    width: 100%;
+}
+
+.container{
+    width: 1370px;
+    margin: auto;
+    padding: 0px 15px;
+}
+
+/* responseve */
+
+.hamburger-icon{
+    width: 50%;
+    display: none;
+}
+.hamburger-icon img{
+    width: 50px;
+}
+
+#responsive-nav{
+    display: none;
+}
+
+/* header */
+
+header nav{
+    width: 100%;
+    height: 70px;
+    display: flex;
+}
+header nav .navbar{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .navbar-right{
+    display: flex;
+}
+header nav .navbar-right ul{
+    display: flex;
+}
+header nav .navbar-right ul li{
+    margin: 0 15px;
+}
+header nav .navbar-right ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 19px;
+}
+header nav .navbar-left{
+    display: flex;
+}
+header nav .navbar-left ul{
+    display: flex;
+    margin-left: 100px;
+}
+header nav .navbar-left ul li{
+    margin: 0 15px;
+}
+header nav .navbar-left ul li svg{
+    color: black;
+    font-size: 20px;
+}
+
+header #slide{
+    background-image: url(../images/slide.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 93vh;
+    display: flex;
+}
+header #slide .slider{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+header #slide .slider span{
+    position: absolute;
+    left: 39%;
+    bottom: 420px;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(219, 219, 219, 0.555);
+}
+header #slide .slider .slider-description{
+    position: absolute;
+    left: 0px;
+    bottom: 280px;
+    font-weight: bold;
+}
+header #slide .slider .slider-description h2{
+    font-size: 95px;
+    color: rgb(43, 43, 43);
+}
+header #slide .slider .slider-description h1{
+    font-size: 120px;
+    margin-right: 220px;
+    color: rgb(92, 92, 92);
+}
+
+/* hanging-lamp */
+
+#hanging-lamp{
+    width: 100%;
+    background-color: rgb(202, 126, 126);
+    position: relative;
+    display: flex;
+}
+#hanging-lamp .test{
+    position: absolute;
+    top: 0;
+    right: 0px;
+    bottom: 0px;
+    left: 90%;
+    background-color: white;
+}
+#hanging-lamp .hanging-lamp {
+    display: flex;
+    justify-content: space-between;
+}
+#hanging-lamp .hanging-lamp .hanging-right {
+    display: flex;
+    background: white;
+    width: 65%;
+}
+#hanging-lamp .hanging-lamp .hanging-right .desc-right {
+    position: relative;
+    margin-top: 50px;
+}
+#hanging-lamp .hanging-lamp .hanging-right .desc-right h1{
+    font-size: 40px;
+    color: rgb(202, 126, 126);
+}
+#hanging-lamp .hanging-lamp .hanging-right .desc-right p{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 35px;
+}
+#hanging-lamp .hanging-lamp .hanging-right .desc-right a{
+    text-decoration: none;
+    background-color: rgb(197, 56, 46);
+    color: white;
+    padding: 8px 18px;
+    position: absolute;
+    left: 40px;
+    border-radius: 5px;
+}
+#hanging-lamp .hanging-lamp .hanging-right .img-right img {
+    width: 400px;
+    height: 290px;
+}
+#hanging-lamp .hanging-lamp .hanging-left{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+#hanging-lamp .hanging-lamp .hanging-left .desc-left{
+    width: 100%;
+    text-align: center;
+    margin-right: 70px;
+}
+#hanging-lamp .hanging-lamp .hanging-left h1{
+    font-size: 45px;
+}
+#hanging-lamp .hanging-lamp .hanging-left h2{
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+
+/* hanging-lamp-two */
+
+#hanging-lamp-two{
+    width: 100%;
+    height: 740px;
+    background-color: rgba(255, 240, 240, 0.397);
+    position: relative;
+    display: flex;
+}
+#hanging-lamp-two .test-two{
+    background-image: url(../images/hang.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 554px;
+}
+#hanging-lamp-two .hanging-lamp-two{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-right{
+    width: 65%;
+    height: 740px;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left{
+    width: 35%;
+    height: 740px;
+    
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-right: 40px;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li{
+    width: 50%;
+    margin-top: 30px;
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h2{
+    margin-top: 15px;
+
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li h4{
+    margin-top: 15px;
+
+}
+#hanging-lamp-two .hanging-lamp-two .hang-two-left ul li img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+}
+
+/* sofa */
+
+#sofa{
+    width: 100%;
+    background-color: rgb(4, 33, 54);
+    position: relative;
+    display: flex;
+}
+#sofa .sofa-cover{
+    position: absolute;
+    top: 0;
+    right: 95%;
+    bottom: 0px;
+    left: 0;
+    background-color: white;
+}
+#sofa .sofa {
+    display: flex;
+    justify-content: space-between;
+}
+#sofa .sofa .sofa-left {
+    display: flex;
+    background: white;
+    width: 65%;
+    justify-content: space-between;
+}
+#sofa .sofa .sofa-left .desc-left {
+    position: relative;
+    margin-top: 30px;
+    padding: 20px 40px;
+}
+#sofa .sofa .sofa-left .desc-left h1{
+    font-size: 40px;
+    color: rgb(5, 38, 61);
+}
+#sofa .sofa .sofa-left .desc-left p{
+    font-size: 20px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+}
+#sofa .sofa .sofa-left .desc-left a{
+    text-decoration: none;
+    background-color: rgb(45, 59, 192);
+    color: white;
+    padding: 8px 18px;
+    position: absolute;
+    left: 60px;
+    bottom: 30px;
+    border-radius: 5px;
+}
+#sofa .sofa .sofa-left .img-left img {
+    width: 320px;
+    height: 250px;
+}
+#sofa .sofa .sofa-right{
+    display: flex;
+    align-items: center;
+    width: 35%;
+}
+#sofa .sofa .sofa-right .desc-right{
+    width: 100%;
+    text-align: center;
+    margin-left: 70px;
+}
+#sofa .sofa .sofa-right h1{
+    font-size: 45px;
+    color: white;
+}
+#sofa .sofa .sofa-right h2{
+    font-size: 40px;
+    margin-top: 30px;
+    color: white;
+}
+
+/* sofa-two */
+
+#sofa-two{
+    width: 100%;
+    height: 740px;
+    background-color: rgba(217, 239, 255, 0.397);
+    position: relative;
+    display: flex;
+}
+#sofa-two .sofa-cover-two{
+    background-image: url(../images/5.jpg);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 554px;
+}
+#sofa-two .sofa-two{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+#sofa-two .sofa-two .sofa-two-left{
+    width: 65%;
+    height: 740px;
+}
+#sofa-two .sofa-two .sofa-two-right{
+    width: 35%;
+    height: 740px;
+}
+#sofa-two .sofa-two .sofa-two-right ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    margin-left: 100px;
+}
+#sofa-two .sofa-two .sofa-two-right ul li{
+    width: 50%;
+    margin-top: 30px;
+}
+#sofa-two .sofa-two .sofa-two-right ul li h2{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#sofa-two .sofa-two .sofa-two-right ul li h4{
+    margin-top: 15px;
+    margin-left: 40px;
+}
+#sofa-two .sofa-two .sofa-two-right ul li img{
+    width: 200px;
+    height: 250px;
+    border-radius: 5px;
+    margin-left: 70px;
+}
+
+/* counters */
+
+#counters{
+    width: 100%;
+    background-color: cornflowerblue;
+    padding: 120px 0;
+    display: flex;
+}
+#counters .counters{
+    width: 100%;
+    display: flex;
+}
+#counters .counters .counters-item{
+    width: 25%;
+    text-align: center;
+}
+#counters .counters .counters-item svg{
+    font-size: 40px;
+}
+#counters .counters .counters-item .counter{
+    margin: 30px 0;
+    font-size: 28px;
+}
+#counters .counters .counters-item h5{
+    font-size: 24px;
+}
+
+/* footer */
+
+#footer{
+    background-color: #202020;
+    padding: 80px 0;
+    display: flex;
+}
+#footer .footer{
+    width: 100%;
+    text-align: center;
+}
+#footer .footer h2{
+    color: white;
+}
+#footer .footer ul{
+    display: flex;
+    justify-content: center;
+}
+#footer .footer ul li{
+    margin: 20px 10px;
+}
+#footer .footer ul li a{
+    color: rgb(190, 190, 190);
+}
+#footer .footer ul li a svg{
+    font-size: 20px;
+}
+#footer .footer .footer-desc{
+    border-top: 1px solid black;
+    width: 500px;
+    padding-top: 30px;
+    margin: auto;
+}
+#footer .footer .footer-desc p{
+    color: white;
+    font-size: 17px;
+    line-height: 2;
+}
